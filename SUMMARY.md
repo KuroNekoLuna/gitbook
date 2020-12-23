@@ -6,5 +6,5 @@
 
 ---
 
-* [Leetcode \#1351](untitled.md)
+* [Leetcode \#1351](leetcode-1351.md)
 
