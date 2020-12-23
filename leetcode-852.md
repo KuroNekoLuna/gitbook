@@ -4,14 +4,14 @@ description: Peak Index in a Mountain Array - Easy
 
 # Leetcode \# 852
 
-## 首先先看题目：
+## 题目
 
 * 给出的`arr`被称为 “mountain”,如果此`arr`满足下列条件：
   * `arr.length>= 3`
   * 存在一个`i`，`i`的范围是`0 < i < arr.length - 1`，这使得：
     * `arr[0] < arr[1] < .... < arr[i-1] < arr[i]`
     * `arr[i] > arr[i+1] > .... > arr[i+2] > arr[arr.length - 1]`
-* 其次，能**保证**给出的整数列表是个mountain，并return山顶的那个数字的index，也就是**i**
+* 其次，能**保证**给出的整数列表是个mountain，并 return 山顶的那个数字的index，也就是 **i**
 
 Example 1:
 
