@@ -14,7 +14,8 @@ description: Find Positive Integer Solution for a Given Equation - Easy
   * ```python
     interface CustomFunction {
     public:
-      // Returns positive integer f(x, y) for any given positive integer x and y.
+      // Returns positive integer f(x, y) for any given positive integer x 
+      // and y.
       int f(int x, int y);
     };
     ```
