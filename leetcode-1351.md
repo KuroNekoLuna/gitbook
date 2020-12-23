@@ -2,7 +2,7 @@
 description: Count Negative Numbers in a Sorted Matrix - Easy
 ---
 
-# Leetcode \#1351
+# Leetcode \# 1351
 
 ## 题目
 
