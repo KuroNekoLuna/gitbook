@@ -61,8 +61,7 @@ n == grid[i].length
             return total
     ```
 * 暴力法优化：
-  * ![](.gitbook/assets/leetcode-1351.png) 
-  * 使用双指针**i** 和 **j**，遍历这个矩阵所有的值，当找到某一行里的第一个负数，停止遍历，用总列数减去 **j** 当时的值，便可得出这一行负数的总数量，然后叠加，即可得出答案，附上代码：
+  * * 使用双指针**i** 和 **j**，遍历这个矩阵所有的值，当找到某一行里的第一个负数，停止遍历，用总列数减去 **j** 当时的值，便可得出这一行负数的总数量，然后叠加，即可得出答案，附上代码：
   * ```python
     class Solution:
         def countNegatives(self, grid: List[List[int]]) -> int:
@@ -78,4 +77,6 @@ n == grid[i].length
             return total_negative
     ```
 * 二分法（待更新）
+
+![](.gitbook/assets/leetcode-1351.png)
 
