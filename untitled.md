@@ -4,7 +4,7 @@ description: Count Negative Numbers in a Sorted Matrix - Easy
 
 # Leetcode \#1351
 
-## 首先先看题目：
+## 题目
 
 * 给定一个M\*N的从大到小排序好的矩阵grid，找出这个矩阵内所有的负数。
 
